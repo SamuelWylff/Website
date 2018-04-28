@@ -32,12 +32,24 @@ footer * {
 footer a {
 	text-decoration:underline !important;
 }
+
+footer a:hover {
+	color: #b2b4b7 !important;
+	text-decoration:underline !important;
+}
+
 .footer {
 	  padding: 3rem 1rem 1rem;
 }
 nav a, .nav-item, nav strong {
 	color: white !important;
 }
+
+nav a:hover {
+	color: #b2b4b7 !important;
+	text-decoration:underline !important;
+}
+
 #content-inner {
 	background:white;
 	max-width: 70em;
@@ -85,6 +97,7 @@ nav a, .nav-item, nav strong {
 .box, .title, .subtitle, h1, h2, h3, h4, h5, h6 {
     color: black;
 }
+
 body {
 	background-color: #031a3f !important;
 	min-height: 100%;

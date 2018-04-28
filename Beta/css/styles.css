@@ -95,3 +95,15 @@ body {
 #discord{
 	
 }
+.serverlogo{
+	transition: all 0.25s;
+	border-radius:50%;
+	background-color: #ddd;
+	display: inline-block;
+	max-width: 125px;
+    max-height: 125px;
+}
+
+.serverlogo:hover{
+	transform: scale(1.1);
+}

@@ -1,6 +1,0 @@
-ErrorDocument 404 		'The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.'
-ErrorDocument 403 		'You do not have permission to view this directory or page.'
-
-RewriteEngine On 
-RewriteCond %{SERVER_PORT} 80 
-RewriteRule ^(.*)$ https://www.samuelwylff.ga/$1 [R,L]

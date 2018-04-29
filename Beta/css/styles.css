@@ -5,30 +5,38 @@ nav {
 	width: 100%;
 	-webkit-box-shadow: -1px -1px 14px -1px rgba(0,0,0,0.75)
 }
+
 .hero-body {
 	text-align: center;
 }
+
 .hero-body h1.title {
 	color: #F7FEF7 !important;
 }
+
 .hero-body h2.title {
 	color: #F7FEF7 !important;
 	font-size: 23;
 }
+
 .hero-body h3.title {
 	color: #F7FEF7 !important;
 	font-size: 20;
 }
+
 footer {
 	background-color: #031a3f !important;
 	width: 100%;
 }
+
 footer * {
 	color: white !important;
 }
+
 .hero, nav {
 	background-color: #031a3f !important;
 }
+
 footer a {
 	text-decoration:underline !important;
 }
@@ -41,6 +49,7 @@ footer a:hover {
 .footer {
 	  padding: 3rem 1rem 1rem;
 }
+
 nav a, .nav-item, nav strong {
 	color: white !important;
 }
@@ -55,10 +64,12 @@ nav a:hover {
 	max-width: 70em;
 	margin: 0 auto;
 }
+
 #owners {
 	max-width: 50em;
 	margin: 0 auto;
 }
+
 .staff{
 	transition: all 0.25s;
 	border-radius:50%;
@@ -69,9 +80,11 @@ nav a:hover {
   -webkit-box-shadow: 0 8px 12px rgba(20, 20, 20, 0.2), 0 0 0 1px rgba(20, 20, 20, 0.2);
           box-shadow: 0 8px 12px rgba(20, 20, 20, 0.2), 0 0 0 1px rgba(20, 20, 20, 0.2);
 }
+
 .staff:hover{
 	transform: scale(1.1);
 }
+
 .titlelogo{
 	transition: all 0.25s;
 	border-radius:50%;
@@ -81,6 +94,7 @@ nav a:hover {
     max-height: 75px;
 	-webkit-box-shadow: -1px -1px 14px -1px rgba(0,0,0,0.75)
 }
+
 .partners{
 	transition: all 0.25s;
 	border-radius:50%;
@@ -91,9 +105,11 @@ nav a:hover {
     -webkit-box-shadow: 0 8px 12px rgba(20, 20, 20, 0.2), 0 0 0 1px rgba(20, 20, 20, 0.2);
     box-shadow: 0 8px 12px rgba(20, 20, 20, 0.2), 0 0 0 1px rgba(20, 20, 20, 0.2);
 }
+
 #content-inner, #content, .box {
     background:white;
 }
+
 .box, .title, .subtitle, h1, h2, h3, h4, h5, h6 {
     color: black;
 }
@@ -102,12 +118,7 @@ body {
 	background-color: #031a3f !important;
 	min-height: 100%;
 }
-.center{
-	text-align:center
-}
-#discord{
-	
-}
+
 .serverlogo{
 	transition: all 0.25s;
 	border-radius:50%;
@@ -118,5 +129,14 @@ body {
 }
 
 .serverlogo:hover{
-	transform: scale(1.1);
+	transform: scale(1.1) rotate(360deg)
+}
+
+a:hover{
+	color: #353638 !important;
+	text-decoration:underline !important;
+}
+
+.box{
+	border-radius: 0px;
 }

@@ -1,0 +1,162 @@
+@keyframes banner {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    75% {background-color: green;}
+    100%   {background-color: red;}
+}
+
+@keyframes lileft {
+    0%   {background-color: #003300;}
+    25%  {background-color: #055000;}
+    50%  {background-color: #05a000;}
+    75% {background-color: #055000;}
+    100%   {background-color: #003300;}
+}
+
+@keyframes li {
+    0%   {background-color: #222;}
+    25%  {background-color: #333;}
+    50%  {background-color: #555;}
+    75% {background-color: #333;}
+    100%   {background-color: #222;}
+}
+
+@keyframes p {
+    0%   {color: white;}
+    25%  {color: black;}
+    50%  {color: white;}
+    100% {color: white;}
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+li {
+    float: left;
+}
+
+h2 {
+    float: left;
+    font-family: 'Segoe UI';
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'Segoe UI';
+}
+
+#lileft-about {
+    float:right;
+    background-color: #003300;
+}
+
+#lileft-about a:hover {
+    background-color: #003300;
+
+    animation-name: lileft;
+    animation-duration: 4s;
+    /*animation-delay: 7s;*/
+}
+
+li a:hover {
+    background-color: #222;
+
+    animation-name: li;
+    animation-duration: 4s;
+    /*animation-delay: 7s;*/
+}
+
+body {
+    margin: 0px;
+}
+
+
+#banner {
+    padding: 20px; 
+    
+    width: auto;
+    height: auto 15%;
+
+    background-color:red;
+
+    animation-name: banner;
+    animation-duration: 4s;
+    /*animation-delay: 7s;*/
+    animation-iteration-count: infinite;
+}
+
+#banner p {
+    text-align: center;
+    color:white;
+    top:50%;
+
+    animation-name:p;
+    animation-duration: 4s;
+    /*animation-delay: 7s;*/
+    animation-iteration-count: infinite;
+}
+
+#box {
+    border-radius: 5px;
+    border: 1px solid #5a5a5a;
+    box-shadow: 2px 2px 2px grey;
+
+    padding: 20px; 
+    
+    width: 75%;
+    height: auto;
+    
+    text-align:center;
+    margin: 5% auto;
+}
+
+#footer {
+    background-color: #000;
+    padding: 20px; 
+    
+    width: auto;
+    height: auto;
+    
+    text-align:center;
+}
+
+#footer h1 {
+    font-family: 'Segoe UI';
+    font-size: 18px;
+
+    color:white;
+
+    margin: auto;
+}
+
+#footer p {
+    font-family: 'Segoe UI';
+    font-size: 14px;
+
+    color:white;
+
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Segoe UI';
+    font-size: 36px;
+    font-style: bold;
+
+    margin: auto;
+}
+
+p {
+    font-family: 'Segoe UI';
+    font-size:20px;
+}

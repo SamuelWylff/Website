@@ -1,0 +1,248 @@
+@keyframes banner {
+    0%   {background-color: green;}
+    25%  {background-color: red;}
+    50%  {background-color: blue;}
+    75% {background-color: yellow;}
+    100%   {background-color: green;}
+}
+
+@keyframes p {
+    0%   {color: white;}
+    25%  {color: white;}
+    50%  {color: white;}
+    75%  {color: black;}
+    100% {color: white;}
+}
+
+body {
+    margin: 0px;
+}
+
+.theme {
+    
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #000;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'Segoe UI';
+}
+
+.navbar a:hover {
+    background-color: #333;
+    text-decoration:underline;
+}
+
+h2 {
+    float: left;
+    font-family: 'Segoe UI';
+}
+
+.banner {
+    padding: 20px; 
+    
+    width: auto;
+    height: auto;
+
+    background-color:red;
+
+    animation-name: banner;
+    animation-duration: 4s;
+    /*animation-delay: 7s;*/
+    animation-iteration-count: infinite;
+}
+
+.banner p {
+    text-align: center;
+    color:white;
+
+    animation-name:p;
+    animation-duration: 4s;
+    /*animation-delay: 7s;*/
+    animation-iteration-count: infinite;
+}
+
+.columns {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+    margin-top: -0.75rem;
+}
+
+.column {
+    display:inline-block;
+    
+    max-width: 25%;
+
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 0.75rem;
+}
+
+.wrapper {
+    text-align: center;
+    display: inline-block;
+    
+    font-family:'Segoe UI';
+
+    width:100%;
+}
+
+.medium {
+    max-width: 70em;
+    text-align: center;
+    margin:auto;
+}
+
+.box:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+.box {
+    border-radius: 5px;
+    border: 1px solid grey;
+    /*box-shadow: 2px 2px 2px grey;*/
+
+    padding: 1.25rem; 
+    display:block;
+}
+
+.box-half a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family:'Segoe UI';
+}
+
+.box-half a:hover {
+    color: #333;
+    text-align: center;
+    text-decoration: underline;
+    font-family:'Segoe UI';
+}
+
+ul.b {
+    list-style: none; /* Remove list bullets */
+    padding: 0;
+    margin: 0;
+
+    font-family:'Segoe UI';
+
+    background-color:#FFF;
+}
+
+li.b {
+    float:none;
+}
+
+li.b::before {
+    content: "-"; /* Insert content that looks like bullets */
+    padding-right: 8px;
+}
+
+.footer {
+    background-color: #000;
+    padding: 20px; 
+
+    width: auto;
+    height: auto;
+    
+    text-align:center;
+}
+
+.footer a {
+    font-family: 'Segoe UI';
+    font-size: 14px;
+
+    text-decoration: none;
+
+    color:white;
+
+    margin: auto;
+}
+
+.footer a:hover {
+    font-family: 'Segoe UI';
+    font-size: 14px;
+
+    text-decoration: underline;
+
+    color:#808080;
+
+    margin: auto;
+}
+
+
+.footer p {
+    font-family: 'Segoe UI';
+    font-size: 14px;
+
+    color:white;
+
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Segoe UI';
+    font-size: 26px;
+    font-style: bold;
+
+    margin: auto;
+}
+
+p {
+    font-family: 'Segoe UI';
+    font-size:16px;
+}
+
+button {
+    border-radius: 5px;
+    border: 1px solid #333333;
+
+    font-family: 'Segoe UI';
+    font-size: 14px;
+
+    text-decoration: none;
+
+    background-color:#333333;
+
+    color:white;
+
+    padding: 10px; 
+    margin: 2.5% auto;
+
+    width:auto;
+    height:auto;
+}
+
+button:hover {
+    border-radius: 5px;
+    border: 1px solid #5a5a5a;
+
+    text-decoration: underline;
+
+    background-color:#5a5a5a;
+}
+/*
+#staff {
+    border-radius: 5px;
+    border: 5px solid #000;
+
+    box-shadow: 2px 2px 2px grey;
+
+    border-radius: 80%;
+    height:30%;
+}
+#staff:hover {
+    transform: rotate(20deg);
+}
+*/

@@ -39,6 +39,7 @@ body {
     text-align:center;
     display: inline-block;
 
+    height:100%;
     width:75%;
 }
 
@@ -54,22 +55,30 @@ body {
     display:inline-block;
 
     width:100%;
-
     position:fixed;
     overflow: hidden;
     background-color: #000;
 }
 
-.navbar a {
+.navitem {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.navitem a {
     float: left;
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
+
+    padding: 10px 16px;
 }
 
-.navbar a:hover {
+.navitem a:hover {
     background-color: #333;
     text-decoration:underline;
 }
@@ -111,20 +120,6 @@ body {
     display:block;
 }
 
-.box-half a {
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    font-family:'Segoe UI';
-}
-
-.box-half a:hover {
-    color: #333;
-    text-align: center;
-    text-decoration: underline;
-    font-family:'Segoe UI';
-}
-
 .box:not(:last-child) {
     margin-bottom: 1.5rem;
 }
@@ -140,7 +135,7 @@ body {
 .column {
     display:inline-block;
     
-    max-width: 25%;
+    max-width: 35%;
 
     flex-basis: 0;
     flex-grow: 1;
